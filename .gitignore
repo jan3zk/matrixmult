@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.c
+!*.sh
+!*.md
+
+# But still ignore all directories
+*/
