@@ -88,13 +88,13 @@ The SLURM scripts are configured with the following specifications:
 ### Single Node (`matrix_multiply.sh`)
 - 1 node
 - 1 task
-- 64 CPUs per task
+- 128 CPUs per task
 - 1-minute time limit
 
 ### Dual Node (`matrix_multiply_2nodes.sh`)
 - 2 nodes
 - 2 tasks (1 per node)
-- 64 CPUs per task
+- 128 CPUs per task
 - Runs two matrix multiplications in parallel
 
 ## Output
