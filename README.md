@@ -111,7 +111,7 @@ For system monitoring and resource management:
 
 ```bash
 # Show node reservations
-sinfo -l -N -R delavnica
+scontrol show reservation=delavnica
 
 # Show detailed node information
 scontrol show node <nodename>
