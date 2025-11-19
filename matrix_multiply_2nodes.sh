@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --reservation=delavnica
+#SBATCH --reservation=EuroCC2
 #SBATCH --output=matrix_multiply.out
 #SBATCH --nodes=2
 #SBATCH --ntasks=2
